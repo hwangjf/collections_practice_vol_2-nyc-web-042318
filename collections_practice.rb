@@ -21,6 +21,7 @@ def contain_a(array)
 end
 
 def first_wa
+  
 end
 
 def remove_non_strings
