@@ -10,7 +10,8 @@ def begins_with_r(array)
   return a
 end
 
-def contain_a
+def contain_a(array)
+  
 end
 
 def first_wa
