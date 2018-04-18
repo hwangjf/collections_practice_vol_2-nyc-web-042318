@@ -39,7 +39,7 @@ end
 
 def count_elements(names)
   counts = Hash.new(0)
-  
+  counts[name]
 end
 
 def merge_data
