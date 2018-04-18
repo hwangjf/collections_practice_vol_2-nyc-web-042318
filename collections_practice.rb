@@ -38,8 +38,8 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  new_hash = {}
-  array.
+  new_hash = Hash.new
+  array.each (|name| array.count)
   
 end
 
