@@ -1,5 +1,13 @@
 def begins_with_r(array)
-  array.each { |word| if word[0] == "r"}
+  a = false
+  array.each { |word| 
+    if word[0] == "r"
+      a = true
+    else 
+      a = false
+    end
+  }
+  return a
 end
 
 def contain_a
