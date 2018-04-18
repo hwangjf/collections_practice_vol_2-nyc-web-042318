@@ -20,8 +20,9 @@ def contain_a(array)
   with_a
 end
 
-def first_wa
-  
+def first_wa(array)
+  array.each { |word|
+    if word[0, 1] == "wa"
 end
 
 def remove_non_strings
