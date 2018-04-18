@@ -1,5 +1,5 @@
-def begins_with_r
-  
+def begins_with_r(array)
+  array.each 
 end
 
 def contain_a
