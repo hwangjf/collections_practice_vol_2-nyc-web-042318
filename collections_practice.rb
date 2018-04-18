@@ -37,10 +37,9 @@ def remove_non_strings(array)
   array.keep_if { |i| i.kind_of?(String)}
 end
 
-def count_elements(names)
+def count_elements(array)
   counts = Hash.new(0)
-  i = 0
-  names.each { |name| counts[name] }
+  names.each { |name| counts[name] += 1 }
 end
 
 def merge_data
