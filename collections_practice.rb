@@ -30,6 +30,7 @@ def first_wa(array)
   if wa_words.length >=1
     return wa_words[0]
   end
+  wa_words
 end
 
 def remove_non_strings
