@@ -24,6 +24,7 @@ def first_wa(array)
   array.each { |word|
     if word[0, 1] == "wa"
       return word
+      break
     end
   }
 end
