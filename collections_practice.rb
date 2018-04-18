@@ -41,8 +41,7 @@ def count_elements(names)
   counts = Hash.new(0)
   counts[name] = ""
   counts[count] = 0
-  names.each { |name| counts[name]}
-  
+  counts
 end
 
 def merge_data
