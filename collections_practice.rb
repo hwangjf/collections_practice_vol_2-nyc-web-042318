@@ -39,7 +39,7 @@ end
 
 def count_elements(array)
   counts = Hash.new(0)
-  array.uniq.each { |name| array.count(name) }
+  array.uniq.each { |name| counts[array.count(name)] }
 end
 
 def merge_data
