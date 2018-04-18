@@ -23,7 +23,7 @@ end
 def first_wa(array)
   wa_words = []
   array.each { |word|
-    if word[0, 1] == "wa"
+    if word[0..1] == "wa"
       wa_words << word
     end
   }
