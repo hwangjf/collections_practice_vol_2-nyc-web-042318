@@ -39,7 +39,9 @@ end
 
 def count_elements(names)
   counts = Hash.new(0)
-  names.each { |name| counts[name] }
+  counter = 0
+  names.each { |name| counter += 1 
+  counts[name] counts[counter]}
   
 end
 
