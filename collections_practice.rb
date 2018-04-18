@@ -39,7 +39,7 @@ end
 
 def count_elements(array)
   new_hash = Hash.new
-  array.each (|name| array.count)
+  array.each (|name| counter = array.count(name))
   
 end
 
