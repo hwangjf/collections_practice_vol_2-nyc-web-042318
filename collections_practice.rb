@@ -23,6 +23,9 @@ end
 def first_wa(array)
   array.each { |word|
     if word[0, 1] == "wa"
+      return word
+    end
+  }
 end
 
 def remove_non_strings
