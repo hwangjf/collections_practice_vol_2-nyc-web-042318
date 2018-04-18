@@ -38,7 +38,7 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  array.count { |i| i}
+  hash.new
 end
 
 def merge_data
