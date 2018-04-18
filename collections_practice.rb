@@ -38,7 +38,7 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  array.count { |i| }
+  array.count { |i| i}
 end
 
 def merge_data
