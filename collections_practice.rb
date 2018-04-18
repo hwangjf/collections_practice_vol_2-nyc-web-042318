@@ -17,6 +17,7 @@ def contain_a(array)
       with_a.push(word)
     end
   }
+  with_a
 end
 
 def first_wa
