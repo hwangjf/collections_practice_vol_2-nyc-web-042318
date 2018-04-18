@@ -37,7 +37,8 @@ def remove_non_strings(array)
   array.keep_if { |i| i.kind_of?(String)}
 end
 
-def count_elements
+def count_elements(array)
+  
 end
 
 def merge_data
