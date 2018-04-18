@@ -24,7 +24,7 @@ def first_wa(array)
   wa_words = []
   array.each { |word|
     if word[0, 1] == "wa"
-      wa_words.push(word)
+      wa_words << word
     end
   }
   if wa_words.length >=1
