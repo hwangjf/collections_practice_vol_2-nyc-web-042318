@@ -34,7 +34,7 @@ def first_wa(array)
 end
 
 def remove_non_strings(array)
-  array.keep_if { |i| i.kind_of
+  array.keep_if { |i| i.kind_of?(String)}
 end
 
 def count_elements
