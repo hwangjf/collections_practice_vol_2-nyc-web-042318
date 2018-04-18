@@ -21,12 +21,15 @@ def contain_a(array)
 end
 
 def first_wa(array)
+  wa_words = []
   array.each { |word|
     if word[0, 1] == "wa"
-      return word
-      break
+      wa_words.push(word)
     end
   }
+  if wa_words.length >=1
+    return wa_words[0]
+  end
 end
 
 def remove_non_strings
