@@ -11,7 +11,8 @@ def begins_with_r(array)
 end
 
 def contain_a(array)
-  array.
+  array.each { |word|
+    if 
 end
 
 def first_wa
